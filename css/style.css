@@ -1,0 +1,234 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: #09CBE4;
+}
+
+.btn {
+  display: block;
+  margin: auto;
+  border: none;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.contenerdor-GB {
+  margin: 40px auto;
+  background: #EEEEEE;
+  width: 100%;
+  max-width: 500px;
+  height: 800px;
+  border-radius: 15px 15px 80px 15px;
+}
+
+.contenerdor-GB .bordes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.contenerdor-GB .bordes .borde-izup {
+  width: 50px;
+  height: 35px;
+  border-radius: 10px 0 0 0;
+  background-color: #eeeeee;
+  border-bottom: 5px solid #e0e0e0;
+}
+
+.contenerdor-GB .bordes .borde-centro {
+  width: 420px;
+  border-bottom: 5px solid #e0e0e0;
+  border-right: 5px solid #e0e0e0;
+  border-left: 5px solid #e0e0e0;
+}
+
+.contenerdor-GB .bordes .borde-right {
+  width: 50px;
+  height: 35px;
+  border-radius: 0 10px 0 0;
+  background-color: #eeeeee;
+  border-bottom: 5px solid #e0e0e0;
+}
+
+.contenerdor-GB .cuadro-pantalla {
+  margin: auto;
+  width: 100%;
+  max-width: 380px;
+  height: 295px;
+  background-color: #777777;
+  border-radius: 15px 15px 60px 15px;
+}
+
+.contenerdor-GB .cuadro-pantalla .rayasYtexto {
+  padding-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: auto;
+  width: 90%;
+}
+
+.contenerdor-GB .cuadro-pantalla .rayasYtexto .rayasIzquierda {
+  padding-top: 5px;
+}
+
+.contenerdor-GB .cuadro-pantalla .rayasYtexto .rayasIzquierda .rayaRosa-Iz {
+  width: 100px;
+  height: 3px;
+  background-color: #89278D;
+  margin-bottom: 3px;
+}
+
+.contenerdor-GB .cuadro-pantalla .rayasYtexto .rayasIzquierda .rayaAzul-Iz {
+  width: 100px;
+  height: 3px;
+  background-color: #283593;
+}
+
+.contenerdor-GB .cuadro-pantalla .rayasYtexto span {
+  display: block;
+  color: #c0bfbf;
+  font-size: 11px;
+}
+
+.contenerdor-GB .cuadro-pantalla .rayasYtexto .rayasDerecha {
+  padding-top: 5px;
+}
+
+.contenerdor-GB .cuadro-pantalla .rayasYtexto .rayasDerecha .rayaRosa-Dere {
+  width: 30px;
+  height: 3px;
+  background-color: #89278D;
+  margin-bottom: 3px;
+}
+
+.contenerdor-GB .cuadro-pantalla .rayasYtexto .rayasDerecha .rayaAzul-Dere {
+  width: 30px;
+  height: 3px;
+  background-color: #283593;
+}
+
+.contenerdor-GB .cuadro-pantalla .contenedor-pantalla {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contenerdor-GB .cuadro-pantalla .contenedor-pantalla .contenedor-luz {
+  padding-top: 80px;
+  padding-left: 10px;
+  width: 10px;
+}
+
+.contenerdor-GB .cuadro-pantalla .contenedor-pantalla .contenedor-luz span {
+  color: #c0bfbf;
+  display: block;
+  font-size: 11px;
+}
+
+.contenerdor-GB .cuadro-pantalla .contenedor-pantalla .contenedor-luz span i {
+  display: block;
+  padding-left: 10px;
+  padding-bottom: 5px;
+  color: #FF0000;
+  opacity: 0.2;
+}
+
+.contenerdor-GB .cuadro-pantalla .contenedor-pantalla .pantalla {
+  width: 100%;
+  max-width: 250px;
+  height: 220px;
+  margin: 7px auto;
+  background-color: #bdae58;
+  -webkit-box-shadow: inset 3px 3px 0px 0px #978d51;
+          box-shadow: inset 3px 3px 0px 0px #978d51;
+}
+
+.contenerdor-GB .cuadro-pantalla .contenedor-pantalla .pantalla .nintendo {
+  display: none;
+  margin-top: 0px;
+  color: #8A891F;
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+}
+
+.contenerdor-GB .controles {
+  margin-top: 150px;
+  margin-left: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.contenerdor-GB .controles .flechas {
+  position: relative;
+}
+
+.contenerdor-GB .controles .flechas .flecha {
+  background-color: #444444;
+  border-radius: 5px 5px;
+  position: absolute;
+}
+
+.contenerdor-GB .controles .flechas .circulo {
+  border-radius: 100%;
+  background-color: #353535;
+  position: absolute;
+  z-index: 10px;
+  width: 40px;
+  height: 40px;
+}
+
+.contenerdor-GB .controles .flechas .flecha-Vertical {
+  width: 40px;
+  height: 120px;
+  top: -40px;
+  z-index: 11px;
+}
+
+.contenerdor-GB .controles .flechas .flecha-Horizontal {
+  width: 120px;
+  height: 40px;
+  left: -40px;
+  z-index: 11px;
+}
+
+.contenerdor-GB .controles .botones {
+  -webkit-transform: rotate(-30deg);
+          transform: rotate(-30deg);
+  background-color: #DFDFDF;
+  height: 70px;
+  width: 150px;
+  padding: 10px;
+  border-radius: 30px;
+  margin-right: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.contenerdor-GB .controles .botones .boton {
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  background-color: #A93671;
+}
+/*# sourceMappingURL=style.css.map */
